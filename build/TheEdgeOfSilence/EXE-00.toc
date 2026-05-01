@@ -80,7 +80,7 @@
  [],
  False,
  False,
- 1777390511,
+ 1777631350,
  [('runw.exe',
    'C:\\Users\\neons\\PycharmProjects\\TEoS beta '
    '1.0\\venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',

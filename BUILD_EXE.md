@@ -43,3 +43,12 @@ Test-Path ".\dist\TheEdgeOfSilence\_internal\shaders\water.vert"
 ```
 
 Обе проверки должны вернуть `True`.
+
+## 6) Где теперь сохраняются настройки и рекорды
+
+Игра сохраняет пользовательские данные в `%APPDATA%\TheEdgeOfSilence\`:
+
+- `config\settings.json`
+- `data\teos.db`
+
+Это сделано специально, чтобы запуск через `exe` и через ярлык работал одинаково.

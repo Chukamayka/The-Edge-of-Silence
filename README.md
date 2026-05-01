@@ -27,5 +27,12 @@
 
 - Рендер: гибрид `ModernGL` (вода) + `pygame` (мир/UI)
 - Шейдеры вынесены в `shaders/`
-- Настройки сохраняются в `config/settings.json`
+- Настройки и рекорды сохраняются в `%APPDATA%\TheEdgeOfSilence\`:
+  - `config\settings.json`
+  - `data\teos.db`
 - Базовые автотесты находятся в `tests/`
+
+## Сборка EXE
+
+- Актуальная инструкция по сборке: `BUILD_EXE.md`
+- Для запуска на другом ПК передавайте всю папку `dist\TheEdgeOfSilence\`, а не только `exe`

@@ -325,6 +325,7 @@ imported by:
 <span class="moduletype">SourceModule</span>  <div class="import">
 imported by:
     <a href="#codeop">codeop</a>
+ &#8226;   <a href="#core.paths">core.paths</a>
  &#8226;   <a href="#doctest">doctest</a>
  &#8226;   <a href="#pydoc">pydoc</a>
 
@@ -3143,6 +3144,7 @@ imported by:
     <a href="#core.camera">core.camera</a>
  &#8226;   <a href="#core.config_manager">core.config_manager</a>
  &#8226;   <a href="#core.game">core.game</a>
+ &#8226;   <a href="#core.paths">core.paths</a>
  &#8226;   <a href="#core.run_database">core.run_database</a>
 
   </div>
@@ -3222,11 +3224,35 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="core.paths"></a>
+  <a target="code" href="///C:/Users/neons/PycharmProjects/TEoS%20beta%201.0/core/paths.py" type="text/plain"><tt>core.paths</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#__future__">__future__</a>
+ &#8226;   <a href="#core">core</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#pathlib">pathlib</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#core.run_database">core.run_database</a>
+ &#8226;   <a href="#settings">settings</a>
+ &#8226;   <a href="#systems.renderer">systems.renderer</a>
+ &#8226;   <a href="#systems.sound">systems.sound</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="core.run_database"></a>
   <a target="code" href="///C:/Users/neons/PycharmProjects/TEoS%20beta%201.0/core/run_database.py" type="text/plain"><tt>core.run_database</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#core">core</a>
+ &#8226;   <a href="#core.paths">core.paths</a>
  &#8226;   <a href="#datetime">datetime</a>
  &#8226;   <a href="#pathlib">pathlib</a>
  &#8226;   <a href="#sqlite3">sqlite3</a>
@@ -16079,6 +16105,7 @@ imported by:
  &#8226;   <a href="#concurrent.futures.process">concurrent.futures.process</a>
  &#8226;   <a href="#concurrent.futures.thread">concurrent.futures.thread</a>
  &#8226;   <a href="#contextlib">contextlib</a>
+ &#8226;   <a href="#core.paths">core.paths</a>
  &#8226;   <a href="#ctypes">ctypes</a>
  &#8226;   <a href="#ctypes._aix">ctypes._aix</a>
  &#8226;   <a href="#ctypes.macholib.dyld">ctypes.macholib.dyld</a>
@@ -16237,6 +16264,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#core.config_manager">core.config_manager</a>
+ &#8226;   <a href="#core.paths">core.paths</a>
  &#8226;   <a href="#core.run_database">core.run_database</a>
  &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
  &#8226;   <a href="#importlib.resources._common">importlib.resources._common</a>
@@ -16249,7 +16277,6 @@ imported by:
  &#8226;   <a href="#numpy.f2py.rules">numpy.f2py.rules</a>
  &#8226;   <a href="#numpy.testing._private.extbuild">numpy.testing._private.extbuild</a>
  &#8226;   <a href="#numpy.testing._private.utils">numpy.testing._private.utils</a>
- &#8226;   <a href="#systems.renderer">systems.renderer</a>
  &#8226;   <a href="#zipfile._path">zipfile._path</a>
 
   </div>
@@ -17920,6 +17947,11 @@ imported by:
   <a name="settings"></a>
   <a target="code" href="///C:/Users/neons/PycharmProjects/TEoS%20beta%201.0/settings.py" type="text/plain"><tt>settings</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#core.paths">core.paths</a>
+
+  </div>
+  <div class="import">
 imported by:
     <a href="#core.camera">core.camera</a>
  &#8226;   <a href="#core.game">core.game</a>
@@ -18481,6 +18513,7 @@ imported by:
  &#8226;   <a href="#collections">collections</a>
  &#8226;   <a href="#concurrent.futures.process">concurrent.futures.process</a>
  &#8226;   <a href="#contextlib">contextlib</a>
+ &#8226;   <a href="#core.paths">core.paths</a>
  &#8226;   <a href="#ctypes">ctypes</a>
  &#8226;   <a href="#ctypes._aix">ctypes._aix</a>
  &#8226;   <a href="#ctypes._endian">ctypes._endian</a>
@@ -18727,9 +18760,9 @@ imported by:
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#array">array</a>
+ &#8226;   <a href="#core.paths">core.paths</a>
  &#8226;   <a href="#moderngl">moderngl</a>
  &#8226;   <a href="#numpy">numpy</a>
- &#8226;   <a href="#pathlib">pathlib</a>
  &#8226;   <a href="#pygame">pygame</a>
  &#8226;   <a href="#settings">settings</a>
  &#8226;   <a href="#systems">systems</a>
@@ -18748,7 +18781,8 @@ imported by:
   <a target="code" href="///C:/Users/neons/PycharmProjects/TEoS%20beta%201.0/systems/sound.py" type="text/plain"><tt>systems.sound</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#math">math</a>
+    <a href="#core.paths">core.paths</a>
+ &#8226;   <a href="#math">math</a>
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#pygame">pygame</a>
  &#8226;   <a href="#random">random</a>

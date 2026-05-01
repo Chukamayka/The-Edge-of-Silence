@@ -183,7 +183,7 @@ TEoS beta 1.0 - Codebase Reference
 10. База данных
 ---------------
 Файл: `core/run_database.py`, класс `RunDatabase`.
-Движок: SQLite (`data/teos.db`).
+Движок: SQLite (`%APPDATA%\TheEdgeOfSilence\data\teos.db`).
 
 Таблицы:
 - `runs` - все успешные прохождения.
