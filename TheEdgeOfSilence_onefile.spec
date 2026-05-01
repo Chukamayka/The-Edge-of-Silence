@@ -1,12 +1,21 @@
 # -*- mode: python ; coding: utf-8 -*-
+from PyInstaller.utils.hooks import collect_all
+
+datas = [('shaders', 'shaders'), ('sounds', 'sounds'), ('data', 'data'), ('config', 'config')]
+binaries = []
+hiddenimports = ['moderngl', 'glcontext', 'socket', 'multiprocessing', 'multiprocessing.popen_spawn_win32']
+tmp_ret = collect_all('moderngl')
+datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
+tmp_ret = collect_all('glcontext')
+datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
 
 
 a = Analysis(
     ['main.py'],
     pathex=[],
-    binaries=[],
-    datas=[('shaders', 'shaders'), ('sounds', 'sounds'), ('data', 'data'), ('config', 'config')],
-    hiddenimports=['moderngl', 'glcontext'],
+    binaries=binaries,
+    datas=datas,
+    hiddenimports=hiddenimports,
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
